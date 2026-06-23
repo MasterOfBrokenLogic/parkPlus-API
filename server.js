@@ -2,7 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const axios = require('axios');
 const path = require('path');
-const HttpsProxyAgent = require('https-proxy-agent');
+const { HttpsProxyAgent } = require('https-proxy-agent');
 
 const app = express();
 const PORT = process.env.PORT || 5055;
